@@ -1,13 +1,14 @@
-import Navbar from "@/components/Navbar"
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <>
-      <Navbar />
-      <main className="p-6">
-        <h2 className="text-2xl font-bold">Welcome to ManzzSpace 🚀</h2>
-      </main>
-    </>
+    <main style={{ padding: 24 }}>
+      <h1>ManzzSpace</h1>
+      <p>Website artikel & blog pribadi</p>
+
+      <ul>
+        <li><a href="/blog">Buka Blog</a></li>
+        <li><a href="/admin">Admin</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    </main>
   )
 }
-
