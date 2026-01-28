@@ -1,6 +1,7 @@
 import { getToken } from "next-auth/jwt"
-import { connectDB } from "@/lib/mongodb"
-import Comment from "@/lib/models/Comment"
+import { connectDB } from "../../../../lib/mongodb"
+import Comment from "../../../../lib/models/Comment"
+
 import { NextResponse } from "next/server"
 
 export async function POST(req: Request) {
